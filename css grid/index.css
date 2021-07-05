@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+.container>div:nth-child(1){
+background-color: aqua
+}
+.container>div:nth-child(2){
+background-color: rgb(225, 0, 255)
+}
+.container>div:nth-child(3){
+background-color: rgb(30, 255, 0)
+}
+.container>div:nth-child(4){
+background-color: rgba(145, 255, 0, 0.472)
+}
+.container>div:nth-child(5){
+background-color: rgba(255, 0, 0, 0.274)
+}
+.container>div:nth-child(6){
+background-color: rgb(94, 255, 0)
+}
+.container>div:nth-child(7){
+background-color: rgb(0, 110, 255)
+}
+.container>div:nth-child(8){
+background-color: rgb(255, 0, 234)
+}
+.container>div:nth-child(9){
+background-color: rgba(12, 36, 255, 0.472)
+}
+.container>div:nth-child(10){
+background-color: rgb(115, 187, 0)
+} 
+
+/* grid rpeat ,auto-fit,fraction done ,grid-template done, menu ,header,content , footer visually and codely sajano sesh*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+            grid-gap:5px;
+            object-fit: cover;
+            grid-auto-flow: dense;
+        }
+        .container img{
+            width: 100%;
+            height: 100%;
+         
+        }
+        .horizontal{
+            grid-row:auto / span 2;
+            
+        }
+        .vertical{
+            grid-column:auto / span 2;
+           
+        }
+        .big{
+            grid-column:span 2;
+            grid-row:span 2;
+        }
+*/
+
+
+/* .container{
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5,150px);
+    grid-template-rows: repeat(2,100px);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.seven{
+    justify-self: center;
+    align-self: flex-end;
+} */
+   

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+/* 
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 120px auto 120px;
+} */
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template: repeat(2,100px) / repeat(5,100px);
+    justify-content: end;
+    align-content: flex-start;
+    align-items: center;
+    justify-items: center;
+}
+
+.seven{
+    justify-self: end;
+    align-self: flex-end;
+
+
+}
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div class="seven">7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div> 
+
+    </div>
+
+</body>
+</html>
