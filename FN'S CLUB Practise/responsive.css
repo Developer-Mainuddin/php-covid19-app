@@ -1,0 +1,31 @@
+@media (max-width: 768px) {	
+.menu{
+    display: none!important;
+    position: absolute!important;
+}
+
+.icon{
+	float: right!important;
+	display: block!important;
+	margin:14px 20px  0 0;
+	background: transparent;
+	border: none;
+}
+	
+
+	.nav-icon{
+
+		color: black!important;
+		font-size: 40px!important;
+
+	
+}
+
+.singleBox {
+    width: 100%;
+}
+
+
+
+
+} 
